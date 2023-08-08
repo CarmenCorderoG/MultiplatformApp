@@ -60,11 +60,6 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
-    //DI Koin
-    implementation("org.koin:koin-android:2.1.5")
-    implementation("org.koin:koin-androidx-viewmodel:2.1.5")
-    testImplementation("org.koin:koin-test:2.1.5")
-
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
